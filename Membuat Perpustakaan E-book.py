@@ -1,6 +1,6 @@
-# Aplikasi Pencarian E-book Sederhana
+# Book Hunt pencari buku simple
 
-# Data buku dummy (list of dictionaries)
+# Data buku-buku
 buku = [
     {"judul": "Harry Potter and the Sorcerer's Stone", "penulis": "J.K. Rowling", "genre": "Fantasi"},
     {"judul": "To Kill a Mockingbird", "penulis": "Harper Lee", "genre": "Fiksi"},
@@ -18,7 +18,7 @@ buku = [
 ]
 
 def tampilkan_menu():
-    print("\n=== Aplikasi Pencarian E-book ===")
+    print("\n=== 📖 Book Hunt 📖 ===")
     print("1. List semua buku")
     print("2. Cari buku berdasarkan judul")
     print("3. Cari buku berdasarkan penulis")
@@ -77,15 +77,16 @@ def main():
         elif pilihan == "4":
             cari_genre()
         elif pilihan == "0":
-            print("Terima kasih telah menggunakan aplikasi ini. Program berakhir.")
+            print("Terima kasih telah menggunakan Book Hunt.")
             break
         else:
             print("Pilihan tidak valid. Silakan pilih antara 1-4.")
 
-# Jalankan aplikasi
+# Pemanggil Main Menu
 if __name__ == "__main__":
 
     main()
+
 
 
 
