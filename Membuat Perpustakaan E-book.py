@@ -60,7 +60,7 @@ def cari_genre():
 def main():
     while True:
         tampilkan_menu()
-        pilihan = input("Pilih opsi (1-5): ")
+        pilihan = input("Pilih opsi (1-4): ")
         
         if pilihan == "1":
             list_buku()
@@ -70,12 +70,13 @@ def main():
             cari_penulis()
         elif pilihan == "4":
             cari_genre()
-        elif pilihan == "5":
+        elif pilihan == "0":
             print("Terima kasih telah menggunakan aplikasi ini. Program berakhir.")
             break
         else:
-            print("Pilihan tidak valid. Silakan pilih antara 1-5.")
+            print("Pilihan tidak valid. Silakan pilih antara 1-4.")
 
 # Jalankan aplikasi
 if __name__ == "__main__":
+
     main()
