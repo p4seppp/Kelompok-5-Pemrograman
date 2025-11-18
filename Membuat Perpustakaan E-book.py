@@ -2,13 +2,14 @@
 
 # Data buku dummy (list of dictionaries)
 buku = [
-    {"judul": "Harry Potter and the Sorcerer's Stone", "penulis": "J.K. Rowling", "genre": "Fantasy"},
-    {"judul": "To Kill a Mockingbird", "penulis": "Harper Lee", "genre": "Fiction"},
-    {"judul": "1984", "penulis": "George Orwell", "genre": "Dystopian"},
-    {"judul": "The Great Gatsby", "penulis": "F. Scott Fitzgerald", "genre": "Fiction"},
-    {"judul": "Pride and Prejudice", "penulis": "Jane Austen", "genre": "Romance"},
-    {"judul": "The Hobbit", "penulis": "J.R.R. Tolkien", "genre": "Fantasy"},
+    {"judul": "Harry Potter and the Sorcerer's Stone", "penulis": "J.K. Rowling", "genre": "Fantasi"},
+    {"judul": "To Kill a Mockingbird", "penulis": "Harper Lee", "genre": "Fiksi"},
+    {"judul": "1984", "penulis": "George Orwell", "genre": "Dystopia"},
+    {"judul": "The Great Gatsby", "penulis": "F. Scott Fitzgerald", "genre": "Fiksi"},
+    {"judul": "Pride and Prejudice", "penulis": "Jane Austen", "genre": "Romansa"},
+    {"judul": "The Hobbit", "penulis": "J.R.R. Tolkien", "genre": "Fantasi"},
     {"judul": "Animal Farm", "penulis": "George Orwell", "genre": "Satire"},
+    {"judul": "Supernova", "penulis": "Dee Lestari", "genre": "Fiksi Sains"},
 ]
 
 def tampilkan_menu():
@@ -80,3 +81,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
