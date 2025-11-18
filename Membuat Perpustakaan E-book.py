@@ -10,6 +10,11 @@ buku = [
     {"judul": "The Hobbit", "penulis": "J.R.R. Tolkien", "genre": "Fantasi"},
     {"judul": "Animal Farm", "penulis": "George Orwell", "genre": "Satire"},
     {"judul": "Supernova", "penulis": "Dee Lestari", "genre": "Fiksi Sains"},
+    {"judul": "Cantik Itu Luka", "penulis": "Eka Kurniawan", "genre": "Fiksi"},
+    {"judul": "The Subtle Art of Not Giving a Fuck", "penulis": "Mark Manson", "genre": "Pengembangan Diri"},
+    {"judul": "Black Showman dan Pembunuh di Kota Tak Bernama", "penulis": "Keigo Higashino", "genre": "Misteri"},
+    {"judul": "The Silent Patient", "penulis": "Alex Michaelides", "genre": "Thriller"},
+    {"judul": "Laskar Pelangi", "penulis": "Andrea Hirata", "genre": "Fiksi"},
 ]
 
 def tampilkan_menu():
@@ -81,4 +86,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
