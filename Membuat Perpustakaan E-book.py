@@ -23,7 +23,7 @@ def tampilkan_menu():
     print("2. Cari buku berdasarkan judul")
     print("3. Cari buku berdasarkan penulis")
     print("4. Cari buku berdasarkan genre")
-    print("5. End Program")
+    print("0. End Program")
 
 def list_buku():
     print("\n=== Daftar Semua Buku ===")
@@ -86,5 +86,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
