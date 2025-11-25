@@ -1,5 +1,3 @@
-
-
 # Data buku-buku
 buku = [
     {"judul": "Harry Potter and the Sorcerer's Stone", "penulis": "J.K. Rowling", "genre": "Fantasi"},
@@ -209,3 +207,4 @@ def main():
 # Pemanggil Main Menu
 if __name__ == "__main__":
     main()
+
